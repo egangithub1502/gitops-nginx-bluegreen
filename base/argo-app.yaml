@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/egangithub1502/gitops-nginx-bluegreen'
     targetRevision: main
-    path: overlays/green     # <- switch to overlays/green when switching color
+    path: overlays/blue     # <- switch to overlays/green when switching color
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: nginx
